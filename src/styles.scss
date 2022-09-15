@@ -1,2 +1,16 @@
 
+*BODY{
+    background-color: rgb(6, 6, 6) !important;
+}
 
+
+.child {
+    width: 100%;
+    height: 100%;
+    // background-color: red;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+  }

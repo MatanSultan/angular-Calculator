@@ -1,12 +1,18 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
-    background-color: antiquewhite !important;
+    background-color: rgb(6, 6, 6) !important;
     direction: rtl!important;
     margin: auto !important;
    
 }
+
+.cscontainer-fluid{
+    margin: auto;
+    float: right;
+    direction: rtl;
+}
 .continer-back-center{
     display: block;
     margin: 0 auto;
-    
 }
+
