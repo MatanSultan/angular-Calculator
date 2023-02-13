@@ -1,16 +1,17 @@
 
-*BODY{
-    background-color: rgb(6, 6, 6) !important;
+//center the content
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+//background linear gradient
+body {
+  // background: linear-gradient(45deg, #f3f3f3, #f3f3f3);
+
+  //background image
+  background: linear-gradient(#e66465, #9198e5);
 }
 
-
-.child {
-    width: 100%;
-    height: 100%;
-    // background-color: red;
-    /* Center vertically and horizontally */
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
-  }
